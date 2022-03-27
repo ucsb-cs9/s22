@@ -10,7 +10,7 @@ Basic Facts
 * **Course Web Site**: <https://ucsb-cs9.github.io/s22/>
 * **Instructor**:  [Richert Wang](http://www.cs.ucsb.edu/~richert)
    * Please use [Piazza](https://piazza.com/ucsb/spring2022/181c9) for course related communication.
-* **Lecture**: Tu Th 3:30pm-4:45pm, GIRV 1004
+* **Lecture**: Tu Th 8am-9:15am, GIRV 1004
 * **TAs**:  {{site.ta_list_full}} (contact via Piazza)
 * **ULAs**: {{site.mentors_list}} (contact via Piazza)
 * **Lab** (50 minute lab sections): Wednesdays 9am, 10am, 11am, 12pm, 1pm, 2pm - PHELPS 3525
