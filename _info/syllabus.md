@@ -71,7 +71,7 @@ Your course grade will be determined as follows:
 
 | Grade Item                                    | Percentage of Final Grade |
 |-----------------------------------------------|---------------------------|
-| Quizzes                                       | 35 %                      |
+| Quizzes (Fridays on Weeks 2,4,6,8,10)         | 35 %                      |
 | Final (Thur 6/9), 8am - 10am                  | 25 %                      |
 | Homeworks                                     | 10 %                      |
 | Labs                                          | 30 %                      |
