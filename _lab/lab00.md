@@ -4,7 +4,7 @@ num: lab00
 ready: true
 desc: "Getting Started, Python Review"
 assigned: 2022-03-28 08:00:00-7
-due: 2022-04-03 11:59:59-7
+due: 2022-04-03 23:59:59-7
 ---
 
 # Introduction
