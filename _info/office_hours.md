@@ -14,19 +14,38 @@ Richert Wang
 # TAs
 
 Lijuan Cheng
-* TBD
+* Lab Sections (PHELPS 3525): 11am, 12pm
+* Friday 9am - 11am
+* https://ucsb.zoom.us/j/84892818619
+
+Shereen Elsayed
+* Lab Sections (PHELPS 3525): 1pm, 2pm
+* Thursday 1pm - 3pm
+* https://ucsb.zoom.us/j/84892818619
+
+Punnal Ismail Khan
+* Lab Sections (PHELPS 3525): 12pm, 1pm
+* Tuesday 3pm - 5pm
+* https://ucsb.zoom.us/j/84892818619
 
 Gautam Mundewadi
-* TBD
+* Lab Sections (PHELPS 3525): 10am
+* Thursday 3pm - 6pm
+* https://ucsb.zoom.us/j/84892818619
 
 Xingbu Qin
-* TBD
-
-Christos Zhangos
-* TBD
+* Lab Sections (PHELPS 3525): 9am, 10am
+* Friday 11am - 1pm
+* https://ucsb.zoom.us/j/84892818619
 
 # Undergraduate Learning Assistants (ULAs)
 
 Priyanka Banerjee
-* TBD
+* Lab Sections (PHELPS 3525): 1pm, 2pm
+* Friday 4pm - 6pm
+* https://ucsb.zoom.us/j/84892818619
 
+Jai Uparkar
+* Lab Sections (PHELPS 3525): 9am, 10am
+* Monday 9am - 11am
+* https://ucsb.zoom.us/j/84892818619
