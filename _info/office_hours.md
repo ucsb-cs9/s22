@@ -42,8 +42,8 @@ Xingbu Qin
 
 Priyanka Banerjee
 * Lab Sections (PHELPS 3525): 1pm, 2pm
-* Friday 4pm - 6pm
-	* https://ucsb.zoom.us/j/84892818619
+* Wednesday 5pm - 7pm
+	* PHELPS 3525
 
 Jai Uparkar
 * Lab Sections (PHELPS 3525): 9am, 10am
