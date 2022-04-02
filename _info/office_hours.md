@@ -35,8 +35,8 @@ Gautam Mundewadi
 
 Xingbu Qin
 * Lab Sections (PHELPS 3525): 9am, 10am
-* Friday 11am - 1pm
-	* https://ucsb.zoom.us/j/84892818619
+* Wednesday 3pm - 4pm, Thursday 6pm - 7pm
+	* PHELPS 3525
 
 # Undergraduate Learning Assistants (ULAs)
 
