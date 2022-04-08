@@ -20,7 +20,7 @@ Lijuan Cheng
 
 Shereen Elsayed
 * Lab Sections (PHELPS 3525): 1pm, 2pm
-* Thursday 1pm - 3pm
+* Thursday 11am - 1pm
 	* https://ucsb.zoom.us/j/84892818619
 
 Punnal Ismail Khan
@@ -35,17 +35,24 @@ Gautam Mundewadi
 
 Xingbu Qin
 * Lab Sections (PHELPS 3525): 9am, 10am
-* Wednesday 3pm - 4pm, Thursday 6pm - 7pm
+* Wednesday 3:30pm - 4:30pm, Thursday 6pm - 7pm
 	* PHELPS 3525
 
 # Undergraduate Learning Assistants (ULAs)
 
 Priyanka Banerjee
 * Lab Sections (PHELPS 3525): 1pm, 2pm
-* Wednesday 5pm - 7pm
+* Wednesday 5pm - 6pm
 	* PHELPS 3525
+* Friday 4pm - 5pm
+	* https://ucsb.zoom.us/j/84892818619
+
+Annie Huang
+* Lab Sections (PHELPS 3525): 9am, 10am
+* Friday 9am - 10am, 4pm - 5pm
+	* https://ucsb.zoom.us/j/84892818619
 
 Jai Uparkar
 * Lab Sections (PHELPS 3525): 9am, 10am
-* Monday 9am - 11am
+* Monday 10am - 11am, Friday 10am - 11am
 	* https://ucsb.zoom.us/j/84892818619
