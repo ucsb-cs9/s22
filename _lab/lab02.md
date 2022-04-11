@@ -124,6 +124,7 @@ This file will contain unit tests using pytest to test if your functionality is 
 
 Pytest will need to be installed on your computer since it does not come with Python by default. Some links for you to use when installing pytest are:
 * Installation Guide: <https://docs.pytest.org/en/stable/getting-started.html>
+	* Note: on MacOS running Python3, try using **pip3** instead of **pip** if your installation is not working.
 * Windows Installation Guide (created by previous Learning Assistants): [Python and Pytest Installation Guide for Windows](https://drive.google.com/file/d/1nPCwIA8cBAkiJ-kOKZFjkOskD94jmWYn/view)
 	* If you have installed Python on your windows machine already without selecting `Add Python 3.x to PATH`, the easiest thing to do is uninstall / reinstall Python and be sure to select this box. 
 
