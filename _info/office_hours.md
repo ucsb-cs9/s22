@@ -30,7 +30,7 @@ Punnal Ismail Khan
 
 Gautam Mundewadi
 * Lab Sections (PHELPS 3525): 10am
-* Thursday 3pm - 6pm
+* Thursday 3pm - 4:30pm, 5pm - 6:30pm
 	* https://ucsb.zoom.us/j/84892818619
 
 Xingbu Qin
