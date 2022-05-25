@@ -129,7 +129,7 @@ In addition to the construction of the BST in this class, the following methods 
 * `preOrder(self)` - returns a string with the pre-order traversal of the BST. BSTs with the same structure should always have the same pre-order traversal, so this can be used to verify that everything was inserted correctly
 * `postOrder(self)` - returns a string with the post-order traversal of the BST.
 * `getBestCar(self, make, model)` - returns the `Car` with the newest year - and if multiple, then highest price - given the make and model. If the make and model doesn't exist, then return None.
-* `getWorstCar(self, make, model)` - returns the car with the newest year - and if multiple, then highest price - given the make and model. If the make and model doesn't exist, then return None.
+* `getWorstCar(self, make, model)` - returns the car with the oldest year - and if multiple, then lowest price - given the make and model. If the make and model doesn't exist, then return None.
 * `getTotalInventoryPrice(self)` - returns an integer the total price of all the cars in the dealership. 
 
 Given an example BST:
