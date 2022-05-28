@@ -218,7 +218,7 @@ This lab contains a lot of implementation details, and different parts of the la
 1. Implement the `Car` class, and especially double check that your comparators are working
 2. Implement the `CarInventoryNode` class. You should go through and test your `__str__` overloading before moving on
 3. Start with `addCar`, and then the BST traversal methods. You should test to see if your `addCar` is working by inserting several Cars into the BST, and using the traversals to verify your results; is a new `CarInventoryNode` being created if the Car didn't exist in the BST, and if the node did already exist, is the Car being inserted to the list of cars in the node?
-4. Once you've made sure your `addCar` is working, you can then move on to `DoesCarExist`, `getBestCar` and `getWorstCar`.
+4. Once you've made sure your `addCar` is working, you can then move on to `doesCarExist`, `getBestCar` and `getWorstCar`.
 5. Testing is extremely important to help debug any issues you may experience. Be sure to write thorough tests with various edge cases to make sure your program works as expected.
 
 # Submission
