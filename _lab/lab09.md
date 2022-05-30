@@ -44,6 +44,8 @@ In addition to the methods created before, the following methods are required to
 
 **A note if you have implemented `CarInventoryNode` comparators:** If you have implemented `CarInventoryNode` comparators in last week's lab, in your `__eq__` comparator overload, before you check for the `make` and the `model`, you should check if the right-hand-side is `None`. If it is `None`, you should return `False`. This is because of a quirk about how Python handles comparators between overloaded comparators and `None`.
 
+# Examples
+
 Given an example BST:
 
 ```python
@@ -61,12 +63,14 @@ bst.addCar(car3)
 bst.addCar(car4)
 bst.addCar(car5)
 
-#                                  Mazda,CX-5 [Car(Mazda,CX-5,2022,25000)]
+#                                  Mazda,CX-5,[Car(Mazda,CX-5,2022,25000)]
 #                                 /                                       \
-#           BMW,X5 [Car(BMW,X5,2022,60000), Car(BMW,X5,2020,58000)]    Tesla,Model3 [Car(Tesla, Model3,2018,50000)]
+#           BMW,X5,[Car(BMW,X5,2022,60000),Car(BMW,X5,2020,58000)]    Tesla,Model3,[Car(Tesla, Model3,2018,50000)]
 #                   /
-#  Audi,A3 [Car(Audi,A3,2021,25000)]
+#  Audi,A3,[Car(Audi,A3,2021,25000)]
 ```
+
+### InOrder Traversal
 
 Using the `CarInventory` after the `addCar` methods above, an example of the `inOrder()` string format for removal is given below after removing the following Car:
 
@@ -74,11 +78,11 @@ Using the `CarInventory` after the `addCar` methods above, an example of the `in
 
 bst.removeCar("BMW", "X5", 2020, 58000)
 
-#                                  Mazda,CX-5 [Car(Mazda,CX-5,2022,25000)]
+#                                  Mazda,CX-5,[Car(Mazda,CX-5,2022,25000)]
 #                                 /                                       \
-#           BMW,X5 [Car(BMW,X5,2022,60000)]    Tesla,Model3 [Car(Tesla,Model3,2018,50000)]
+#           BMW,X5,[Car(BMW,X5,2022,60000)]    Tesla,Model3,[Car(Tesla,Model3,2018,50000)]
 #                   /
-#  Audi,A3 [Car(Audi,A3,2021,25000)]
+#  Audi,A3,[Car(Audi,A3,2021,25000)]
 
 assert bst.inOrder() == \
 """\
@@ -94,9 +98,9 @@ and if we then remove the following car, the `CarInventoryNode` will be removed 
 ```python
 bst.removeCar("BMW", "X5", 2022, 60000)
 
-#                                  Mazda,CX-5 [Car(Mazda,CX-5,2022,25000)]
+#                                  Mazda,CX-5,[Car(Mazda,CX-5,2022,25000)]
 #                                 /                                       \
-#           Audi,A3 [Car(Audi,A3,2021,25000)]    Tesla,Model3 [Car(Tesla,Model3,2018,50000)]
+#           Audi,A3,[Car(Audi,A3,2021,25000)]    Tesla,Model3,[Car(Tesla,Model3,2018,50000)]
 
 
 assert bst.inOrder() == \
@@ -107,17 +111,19 @@ Make: TESLA, Model: MODEL3, Year: 2018, Price: 50000
 """
 ```
 
+### PreOrder Traversal
+
 Using the `CarInventory` after the `addCar` methods above, an example of the `preOrder()` string format is given below after removing the following Cars:
 
 ```python
 
 bst.removeCar("BMW", "X5", 2020, 58000)
 
-#                                  Mazda,CX-5 [Car(Mazda,CX-5,2022,25000)]
+#                                  Mazda,CX-5,[Car(Mazda,CX-5,2022,25000)]
 #                                 /                                       \
-#           BMW,X5 [Car(BMW,X5,2022,60000)]    Tesla,Model3 [Car(Tesla,Model3,2018,50000)]
+#           BMW,X5,[Car(BMW,X5,2022,60000)]    Tesla,Model3,[Car(Tesla,Model3,2018,50000)]
 #                   /
-#  Audi,A3 [Car(Audi,A3,2021,25000)]
+#  Audi,A3,[Car(Audi,A3,2021,25000)]
 
 assert bst.preOrder() == \
 """\
@@ -129,9 +135,9 @@ Make: TESLA, Model: MODEL3, Year: 2018, Price: 50000
 
 bst.removeCar("BMW", "X5", 2022, 60000)
 
-#                                  Mazda,CX-5 [Car(Mazda,CX-5,2022,25000)]
+#                                  Mazda,CX-5,[Car(Mazda,CX-5,2022,25000)]
 #                                 /                                       \
-#           Audi,A3 [Car(Audi, A3, 2021, 25000)]    Tesla,Model3 [Car(Tesla, Model3, 2018,50000)]
+#           Audi,A3,[Car(Audi,A3,2021,25000)]    Tesla,Model3,[Car(Tesla,Model3,2018,50000)]
 
 
 assert bst.preOrder() == \
@@ -142,17 +148,19 @@ Make: TESLA, Model: MODEL3, Year: 2018, Price: 50000
 """
 ```
 
+### PostOrder Traversal
+
 Using the `CarInventory` after the `addCar` methods above, an example of the `postOrder()` string format is given below after removing the following Cars:
 
 ```python
 
 bst.removeCar("BMW", "X5", 2020, 58000)
 
-#                                  Mazda,CX-5 [Car(Mazda,CX-5,2022,25000)]
+#                                  Mazda,CX-5,[Car(Mazda,CX-5,2022,25000)]
 #                                 /                                       \
-#           BMW,X5 [Car(BMW,X5,2022,60000)]    Tesla,Model[Car(Tesla, Model3, 2018,50000)]
+#           BMW,X5,[Car(BMW,X5,2022,60000)]    Tesla,Model3,[Car(Tesla,Model3,2018,50000)]
 #                   /
-#  Audi,A3 [Car(Audi, A3, 2021, 25000)]
+#  Audi,A3,[Car(Audi,A3,2021,25000)]
 
 assert bst.postOrder() == \
 """\
@@ -164,9 +172,9 @@ Make: MAZDA, Model: CX-5, Year: 2022, Price: 25000
 
 bst.removeCar("BMW", "X5", 2022, 60000)
 
-#                                  Mazda,CX-5 [Car(Mazda,CX-5,2022,25000)]
+#                                  Mazda,CX-5,[Car(Mazda,CX-5,2022,25000)]
 #                                 /                                       \
-#           Audi,A3 [Car(Audi, A3, 2021, 25000)]    Tesla,Model[Car(Tesla, Model3, 2018,50000)]
+#           Audi,A3,[Car(Audi,A3,2021,25000)]    Tesla,Model3[Car(Tesla,Model3,2018,50000)]
 
 
 assert bst.preOrder() == \
