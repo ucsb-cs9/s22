@@ -174,7 +174,7 @@ bst.removeCar("BMW", "X5", 2022, 60000)
 
 #                                  Mazda,CX-5,[Car(Mazda,CX-5,2022,25000)]
 #                                 /                                       \
-#           Audi,A3,[Car(Audi,A3,2021,25000)]    Tesla,Model3[Car(Tesla,Model3,2018,50000)]
+#           Audi,A3,[Car(Audi,A3,2021,25000)]    Tesla,Model3,[Car(Tesla,Model3,2018,50000)]
 
 
 assert bst.preOrder() == \
