@@ -177,7 +177,7 @@ bst.removeCar("BMW", "X5", 2022, 60000)
 #           Audi,A3,[Car(Audi,A3,2021,25000)]    Tesla,Model3,[Car(Tesla,Model3,2018,50000)]
 
 
-assert bst.preOrder() == \
+assert bst.postOrder() == \
 """\
 Make: AUDI, Model: A3, Year: 2021, Price: $25000
 Make: TESLA, Model: MODEL3, Year: 2018, Price: $50000
