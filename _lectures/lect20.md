@@ -5,7 +5,7 @@ ready: true
 lecture_date: 2022-06-02 08:00:00.00-7:00
 ---
 
-Recorded Lecture: [6_22_22](https://drive.google.com/file/d/1qB7aL_490g2JpfhQDkWHUTwOfzl3IxT9/view?usp=sharing)
+Recorded Lecture: [6_2_22](https://drive.google.com/file/d/1qB7aL_490g2JpfhQDkWHUTwOfzl3IxT9/view?usp=sharing)
 
 * Link to previous F21 in-person Final: [F21 Sample Final](https://drive.google.com/file/d/1COj5GgseZXQbCEMtcEgVdYgjAmAFNXyF/view?usp=sharing)
     * Note: use this as a **supplemental** study guide. A remote final will contain different types of questions, and the difficulty may vary.
